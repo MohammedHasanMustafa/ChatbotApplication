@@ -3,7 +3,7 @@ from langchain_google_genai import ChatGoogleGenerativeAI
 import os
 
 # Set the Google API key directly (not recommended for production)
-os.environ["GOOGLE_API_KEY"] = "GOOGLE_API_KEY"
+os.environ["GOOGLE_API_KEY"] = "# Set the Google API key directly (not recommended for production)"
 
 # Initialize the ChatGoogleGenerativeAI model
 llm = ChatGoogleGenerativeAI(
